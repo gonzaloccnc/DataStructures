@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "module": "ES2022",
+    "moduleResolution": "NodeNext",
+    "allowSyntheticDefaultImports": true,
+    "target": "ES2022",
+    "allowJs": false,
+    "lib": [
+      "ES2022"
+    ],
+    "esModuleInterop": false,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "strictBindCallApply": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noUnusedParameters": true,
+    "noUnusedLocals": true,
+    "skipLibCheck": true,
+    "noImplicitAny": true,
+    "outDir": "dist"
+  },
+  "exclude": [
+    "node_modules",
+    "test"
+  ]
+}
